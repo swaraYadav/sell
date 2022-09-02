@@ -1,0 +1,44 @@
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 170px;
+    height: 260px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.product img {
+    height: 200px;
+    width: inherit;
+    border-radius: 5px;
+}
+
+.product p{
+    margin: 8px;
+}
+
+.buttonWrapper{
+    display: inline;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: 0px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.addCart {
+    background: #b302c3;
+    color: #fff;
+}
+
+.buyNow{
+    background: #2bc1a6;
+    color: #fff;
+}
